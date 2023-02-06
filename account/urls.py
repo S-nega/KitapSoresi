@@ -4,6 +4,6 @@ from .views import *
 
 urlpatterns = [
     path('', account, name='account'),
-    path('settings/<int:userid>/', settings),
+    path('settingsPage/<int:userid>/', settingsPage),
     re_path(r'^archive/(?P<year>[0-9]{4})/', archive),
 ]
