@@ -18,7 +18,7 @@ def archive(request, year):
 
     return HttpResponse(f"<h1>Archive by years</h1><p>{year}</p>")
 
-def settings(request, userid):
+def settingsPage(request, userid):
     return HttpResponse("Settings Page")
 
 
@@ -33,3 +33,5 @@ def unableRequest(request, exception):
 
 def serviceError(request, exception):
     return HttpResponseNotFound('<h1>Service Error</h1>')
+
+###
