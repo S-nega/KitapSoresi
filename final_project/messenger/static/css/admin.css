@@ -1,0 +1,13 @@
+#header, .module caption{
+    background-color: #ffcc00;
+    color: #333;
+}
+#branding, #site-name, a{
+    color: #333;
+}
+caption a{
+    color: #333;
+}
+/*a {*/
+/*    color: #333;*/
+/*}*/
